@@ -1,0 +1,30 @@
+.calculadora-container {
+  width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  border: 2px solid #333;
+}
+
+.titulo-e-imagem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: #333;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  margin-left: 10px;
+}
+
+.imagem-botafogo {
+  width: 60px;
+  height: auto;
+  object-fit: contain;
+}

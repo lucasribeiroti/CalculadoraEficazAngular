@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "calculadora": {
+    "calculadoaBoaDemais": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -24,7 +24,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/calculadora",
+            "outputPath": "dist/calculadoa-boa-demais",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -76,10 +76,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "calculadora:build:production"
+              "buildTarget": "calculadoaBoaDemais:build:production"
             },
             "development": {
-              "buildTarget": "calculadora:build:development"
+              "buildTarget": "calculadoaBoaDemais:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -112,6 +112,6 @@
     }
   },
   "cli": {
-    "analytics": "bbab27c1-e79a-465e-b2ff-a42f4c1b67f8"
+    "analytics": "dbe421c2-a1b6-45f0-a58f-b3b3848edb02"
   }
 }

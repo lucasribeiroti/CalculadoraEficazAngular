@@ -1,0 +1,21 @@
+<div class="teclado">
+  <button (click)="onNumeroClick('7')">7</button>
+  <button (click)="onNumeroClick('8')">8</button>
+  <button (click)="onNumeroClick('9')">9</button>
+  <button class="operador" (click)="onOperadorClick('/')">/</button>
+
+  <button (click)="onNumeroClick('4')">4</button>
+  <button (click)="onNumeroClick('5')">5</button>
+  <button (click)="onNumeroClick('6')">6</button>
+  <button class="operador" (click)="onOperadorClick('*')">*</button>
+
+  <button (click)="onNumeroClick('1')">1</button>
+  <button (click)="onNumeroClick('2')">2</button>
+  <button (click)="onNumeroClick('3')">3</button>
+  <button class="operador" (click)="onOperadorClick('-')">-</button>
+
+  <button (click)="onLimparClick()">C</button>
+  <button (click)="onNumeroClick('0')">0</button>
+  <button (click)="onResultadoClick()">=</button>
+  <button class="operador" (click)="onOperadorClick('+')">+</button>
+</div>

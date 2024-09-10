@@ -1,0 +1,13 @@
+<div class="calculadora-container">
+  <div class="titulo-e-imagem">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Botafogo_de_Futebol_e_Regatas_logo.svg/800px-Botafogo_de_Futebol_e_Regatas_logo.svg.png" alt="Botafogo" class="imagem-botafogo"/>
+    <h1>Calculadora Gloriosa</h1>
+  </div>
+  <app-display [valor]="numeroDisplay"></app-display>
+  <app-teclado 
+    (numeroPressionado)="onNumeroPressionado($event)" 
+    (operadorPressionado)="onOperadorPressionado($event)"
+    (resultadoPressionado)="onResultadoPressionado()"
+    (limparPressionado)="onLimpar()">
+  </app-teclado>
+</div>
