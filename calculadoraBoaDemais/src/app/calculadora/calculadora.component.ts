@@ -67,6 +67,10 @@ export class CalculadoraComponent {
       this.onNumeroPressionado(key);
     }
 
+    if (key === '.') {
+      this.onNumeroPressionado(key);
+    }
+
     if (['+', '-', '*', '/'].includes(key)) {
       this.onOperadorPressionado(key);
     }
